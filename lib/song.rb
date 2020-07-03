@@ -11,7 +11,7 @@ include Memorable::InstanceMethods
   @@songs = []
 
   def initialize
-    @@songs << self
+    super
   end
 
 
